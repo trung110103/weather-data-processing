@@ -3,7 +3,7 @@ import psycopg2
 from datetime import datetime
 
 # Cấu hình API
-API_KEY = "c6d22b4de3bed891334db4f9fb805b3b"  # Thay bằng API key của bạn
+API_KEY = "c6d22b4de3bed891334db4f9fb805b3b"  
 CITY = "Hanoi"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
@@ -11,7 +11,7 @@ URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&
 DB_PARAMS = {
     "dbname": "weather_db",
     "user": "postgres",
-    "password": "Trung.110103",  # Thay bằng mật khẩu của bạn
+    "password": "Trung.110103",  
     "host": "localhost",
     "port": "5432"
 }
